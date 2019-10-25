@@ -1,6 +1,6 @@
 int divide(int dividend, int divisor){
     int sign = 1;
-    int output = 0;
+    long int output = 0;
     if (dividend < 0) {
         sign *= -1;
 
@@ -14,17 +14,11 @@ int divide(int dividend, int divisor){
         divisor *= -1;
     }
     while (dividend <= divisor) {
-        int tmp = 0;
-        int div = divisor;
+        long int tmp = 0;
+        long int div = divisor;
         while (dividend <= div) {
             tmp += (tmp+1);
             dividend -= div;
-            if(div < 0  && div + div > 0) {
-                return -1;
-            }
-            if(div < 0 && div + div > 0) {
-                return -1;
-            }
             div += div;
         }
         if (output >= INT_MAX) {
