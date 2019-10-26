@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-
 char *getOne(char c){
     switch (c) {
         case '9':
@@ -140,7 +136,6 @@ char * intToRoman(int num){
     
     sprintf(number, "%i", num); 
     
-    printf("IntNumber: %s\n", number);
     length = strlen(number);
 
     switch (length){
@@ -165,12 +160,5 @@ char * intToRoman(int num){
         default:
             break;
     }
-
-    printf("RomanNumber: %s\n", s);
     return s;
-}
-
-int main(int argc, char const *argv[]) {
-    printf("%s\n", intToRoman(3546));
-    return 0;
 }
