@@ -25,7 +25,7 @@
 
 **Pull Requests:**
 
-* [PR-474](https://github.com/TheAlgorithms/C/pull/474)
-* [PR-475](https://github.com/TheAlgorithms/C/pull/475)
-* [PR-490](https://github.com/TheAlgorithms/C/pull/490)
+* [PR-474](https://github.com/TheAlgorithms/C/pull/474) **(merged)**
+* [PR-475](https://github.com/TheAlgorithms/C/pull/475) **(merged)**
+* [PR-490](https://github.com/TheAlgorithms/C/pull/490) **(open)**
 
