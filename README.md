@@ -22,7 +22,7 @@
 
 **Pull Requests:**
 
-* [PR-473](https://github.com/TheAlgorithms/C/pull/473)
 * [PR-474](https://github.com/TheAlgorithms/C/pull/474)
 * [PR-475](https://github.com/TheAlgorithms/C/pull/475)
+* [PR-490](https://github.com/TheAlgorithms/C/pull/490)
 
